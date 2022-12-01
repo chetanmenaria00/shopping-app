@@ -1,0 +1,126 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.bannerBox {
+    background-image: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bannerBox:hover {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.png {
+    max-height: 100%;
+    max-width: 100%;
+    /* position: relative; */
+}
+
+.Star-lt {
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    width: 8%;
+
+}
+
+.Star-rt {
+    position: absolute;
+    top: 60px;
+    right: 90px;
+    width: 8%;
+}
+
+.Star-lb {
+    position: absolute;
+    left: 140px;
+    bottom: 220px;
+    width: 8%;
+}
+
+.Star-rb {
+    position: absolute;
+    right: 10px;
+    bottom: 180px;
+    width: 8%;
+}
+
+.txtbox {
+    position: relative;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    font-weight: 1000;
+}
+
+.heading1 {
+    font-size: 5vw;
+    font-weight: 1000;
+    color: black;
+}
+
+.txtbg {
+    max-width: 64%;
+}
+
+@media screen and (max-width:768px) {
+    .txtbg {
+        max-width: 50%;
+        margin: auto;
+    }
+
+    .centered {
+        left: 50%;
+        font-size: 7vw;
+    }
+
+    .heading1 {
+        margin-left: 20px;
+        font-size: 7vw;
+    }
+
+    .right-side {
+        text-align: center;
+    }
+
+    .txtbox {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .Star-lt {
+        position: absolute;
+        top: 67px;
+        left: 80px;
+        width: 8%;
+
+    }
+
+    .Star-rt {
+        position: absolute;
+        top: 60px;
+        right: 90px;
+        width: 8%;
+    }
+
+    .Star-lb {
+        position: absolute;
+        left: 90px;
+        bottom: 160px;
+        width: 8%;
+    }
+
+    .Star-rb {
+        right: 30px;
+    }
+}

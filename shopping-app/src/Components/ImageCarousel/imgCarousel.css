@@ -1,0 +1,14 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.img-bg{
+    background-color: #E6C744;
+    margin: auto;
+    overflow: hidden;
+}
+
+.img-carousel{
+    /* width: 50%; */
+    height: auto;
+}

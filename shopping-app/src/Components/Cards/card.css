@@ -1,0 +1,58 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hoverCard:hover{
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.SetText{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.SetCard{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-text{
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.CardBox{
+    width:auto;
+    align-items:baseline;
+    padding: 0px;
+    
+}
+
+.SetImg{
+    height: auto;
+}
+
+.arrow1{
+    width: 10%;
+    height: 10%;
+    margin-left: 45px;
+    /* margin-top: 10px; */
+}
+
+.arrow2{
+    width: 10%;
+    height: 10%;
+    margin-left: 85px;
+}
+
+
+.arrow3{
+    width: 10%;
+    height: 10%;
+    margin-left: 95px;
+}

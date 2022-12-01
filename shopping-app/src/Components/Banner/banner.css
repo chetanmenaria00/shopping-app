@@ -1,0 +1,102 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headtxt{
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0px;
+}
+
+.paratext{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.girl {
+    position: relative;
+    width: 100%;
+    padding:0;
+}
+
+.Box {
+    background-color: #F4F6F5;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.yellow {
+    height: 100%;
+    max-width: 50%;
+}
+
+.shop-btn {
+    /* max-height: 50%;
+    max-width: 50%; */
+    max-width: 40%;
+}
+
+.star-rt{
+    position: absolute;
+    top: 15px;
+    left: 6px;
+    width: 8%;
+}
+
+.star-lt{
+    position: absolute;
+    top: 40px;
+    right: 157px;
+    width: 8%;
+}
+
+.star-rb{
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+    width: 8%;
+}
+
+.star-lb{
+    position: absolute;
+    right:10px;
+    bottom: 60px;
+    width: 8%;
+}
+
+@media screen and (max-width:992px) {
+    .star-rt{
+        position: absolute;
+        top: 15px;
+        left: 0px;
+        width: 8%;
+    }
+    
+    .star-lt{
+        position: absolute;
+        top: 20px;
+        right: 90px;
+        width: 8%;
+    }
+    
+    .star-rb{
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        width: 8%;
+    }
+    
+    .star-lb{
+        position: absolute;
+        right:10px;
+        bottom: 60px;
+        width: 8%;
+    }
+}

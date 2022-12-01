@@ -1,0 +1,53 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+.end-box{
+    background-color: rgb(0, 0, 0);
+}
+
+/* .vector{
+    position: relative;
+    width:auto;
+} */
+
+.fb-icon{
+    /* padding: 8.5px 14.5px;  */
+}
+
+.ig-icon{
+    /* padding: 10px 12px; */
+}
+
+.tw-icon{
+    /* padding: 10.5px 11.5px; */
+}
+
+.li-icon{
+    /* padding: 11.5px 12.5px; */
+} 
+
+.text-nav{
+    font-size: 15px;
+    text-align: left;
+}
+
+.icon-sec{
+    display: inline-block;
+    background-color: #EBD96B;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.foot-head{
+    font-size: 15px;
+    text-align: left;
+}
+
+.footer-icon{
+    width: 100%;
+}
+
+.icon-sec{
+    width: 52px;
+    height: 52px;
+}
